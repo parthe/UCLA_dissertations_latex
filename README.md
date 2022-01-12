@@ -1,2 +1,4 @@
-# UCLA_dissertations_latex
-LaTeX Templates for Dissertation and Thesis formatted according to UCLA requirements
+# Latex Templates
+For dissertations formatted according to UCLA Graduate division's requirements as of January 12th, 2022
+
+https://grad.ucla.edu/academics/graduate-study/thesis-and-dissertation-filing-requirements/

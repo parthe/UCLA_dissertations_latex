@@ -11,21 +11,6 @@
 \usetikzlibrary{decorations.pathreplacing,calc,shapes.misc,shapes.callouts,shapes.arrows,positioning}
 \usetikzlibrary{patterns}
 
-\newcommand\blankfootnote[1]{%
-  \begingroup
-  \renewcommand\thefootnote{}\footnote{#1}%
-  \addtocounter{footnote}{-1}%
-  \endgroup
-}
-%%%%%%
-%% Packages:
-%% Some useful packages (and compatibility issues with the IEEE format)
-%% are pointed out at the very end of this template source file (they are
-%% taken verbatim out of bare_conf.tex by Michael Shell).
-%
-% *** Do not adjust lengths that control margins, column widths, etc. ***
-% *** Do not use packages that alter fonts (such as pslatex).         ***
-%
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{url}
@@ -87,5 +72,10 @@
 
 
 
-
+\newcommand\blankfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 \newcommand{\replace}[1]{\textcolor{red}{#1}}
