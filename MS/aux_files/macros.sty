@@ -1,0 +1,91 @@
+\usepackage[utf8]{inputenc}
+\RequirePackage{xcolor,bm,setspace}
+\RequirePackage{mathrsfs, amsmath, amsfonts, mathtools, amssymb, amsthm}
+\RequirePackage{centernot}
+\RequirePackage{microtype, nicefrac, bm, bbm}
+\RequirePackage{enumitem}
+\RequirePackage{etoolbox, bookmark}
+\usepackage[toc,page]{appendix}
+\RequirePackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{decorations.pathreplacing,calc,shapes.misc,shapes.callouts,shapes.arrows,positioning}
+\usetikzlibrary{patterns}
+
+\newcommand\blankfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+%%%%%%
+%% Packages:
+%% Some useful packages (and compatibility issues with the IEEE format)
+%% are pointed out at the very end of this template source file (they are
+%% taken verbatim out of bare_conf.tex by Michael Shell).
+%
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{ifthen}
+\usepackage{cite}
+\usepackage{scalerel}
+
+\usepackage{imakeidx}       % hyperlinks in contents page
+\usepackage{hyperref}       % hyperlinks
+\hypersetup{%
+  colorlinks = true,
+  citecolor = black,
+  linkcolor  = black
+}
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+
+%\usepackage[noadjust]{cite}
+\usepackage{epsfig, psfrag}
+\usepackage{algorithm,algorithmic}
+\usepackage{bbm}
+% \usepackage[usenames]{color}
+
+
+%\usepackage{pgfplots}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{mathtools}
+\usepackage{epstopdf}
+%\usepackage{eufrak}
+\usepackage{sidecap}
+\usepackage{graphicx}
+
+%\usepackage{subcaption}
+
+% coloring
+\usepackage[normalem]{ulem} % provides strikeout command \sout
+
+
+
+
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{claim}{Claim}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{remark}{Remark}
+\def\qed{\mbox{} \hfill $\Box$}
+\setlength{\unitlength}{1mm}
+
+
+
+
+
+\newcommand{\replace}[1]{\textcolor{red}{#1}}
